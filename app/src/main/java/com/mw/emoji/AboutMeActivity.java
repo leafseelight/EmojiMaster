@@ -4,11 +4,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+
+import moe.feng.alipay.zerosdk.AlipayZeroSdk;
 
 public class AboutMeActivity extends AppCompatActivity {
 
     private TextView tv_about_msg;
+    private Button btn_donate_alipay;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +24,22 @@ public class AboutMeActivity extends AppCompatActivity {
         tv_about_msg.setAutoLinkMask(Linkify.ALL);
         tv_about_msg.setMovementMethod(LinkMovementMethod
                                          .getInstance());
+
+        btn_donate_alipay = (Button) findViewById(R.id.btn_donate_alipay);
+        boolean hasInstalledAlipayClient = AlipayZeroSdk.hasInstalledAlipayClient(this);
+        if(hasInstalledAlipayClient){
+            btn_donate_alipay.setEnabled(true);
+            btn_donate_alipay.setClickable(true);
+        }else{
+            btn_donate_alipay.setEnabled(false);
+            btn_donate_alipay.setClickable(false);
+        }
+        btn_donate_alipay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlipayZeroSdk.startAlipayClient(AboutMeActivity.this,"aex03674qm0prhhrtepjcbb");
+            }
+        });
     }
 
 
