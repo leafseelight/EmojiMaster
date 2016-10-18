@@ -3,4 +3,4 @@
 
 ### 运行效果
 
-<a href="./art/screenshot.png"><img src="./art/screenshot.png" width="40%"/></a>
+<a href="./art/Screenshot.png"><img src="./art/Screenshot.png" width="40%"/></a>
