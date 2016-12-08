@@ -1,13 +1,29 @@
-# EmojiMaster
+# EmojiMaster 
+[![](https://jitpack.io/v/leafseelight/EmojiMaster.svg)](https://jitpack.io/#leafseelight/EmojiMaster)
+
 搜狗Emoji表情输入、展示、过滤、禁用等功能实现。
 
 ### 运行效果
 
 <a href="./art/Screenshot.png"><img src="./art/Screenshot.png" width="40%"/></a>
 
-### 使用
+### 使用是很简单的
 
-[![](https://jitpack.io/v/leafseelight/EmojiMaster.svg)](https://jitpack.io/#leafseelight/EmojiMaster)
+Step 1. 添加 JitPack 资源库到你工程根目录的build文件
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. 在你的项目中添加依赖
+
+	dependencies {
+		compile 'com.github.leafseelight:EmojiMaster:v1.0.1''
+	}
+
+
 
 ### 联系我
 
@@ -21,7 +37,7 @@ Email：ye.jg@outlook.com
 ### Thanks
  
  * [https://github.com/fython/AlipayZeroSdk](https://github.com/fython/AlipayZeroSdk)
-
+ * [自己创建一个android studio在线依赖compile](http://blog.csdn.net/qfanmingyiq/article/details/53389361)
 ### License
 
 ```
