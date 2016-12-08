@@ -5,6 +5,9 @@
 
 <a href="./art/Screenshot.png"><img src="./art/Screenshot.png" width="40%"/></a>
 
+### 使用
+
+[![](https://jitpack.io/v/leafseelight/EmojiMaster.svg)](https://jitpack.io/#leafseelight/EmojiMaster)
 
 ### 联系我
 
