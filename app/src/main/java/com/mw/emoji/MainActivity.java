@@ -12,10 +12,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mw.emoji.utils.EmojiFilterTools;
-import com.mw.emoji.utils.EmojiUtil;
-import com.mw.emoji.view.EmojiEditText;
-import com.mw.emoji.view.EmojiTextView;
+import com.leaf.emoji.utils.EmojiFilterTools;
+import com.leaf.emoji.utils.EmojiUtil;
+import com.leaf.emoji.view.EmojiEditText;
+import com.leaf.emoji.view.EmojiTextView;
 
 public class MainActivity extends Activity {
 

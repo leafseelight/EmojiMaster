@@ -1,12 +1,11 @@
-package com.mw.emoji.view;
+package com.leaf.emoji.view;
 
-
-
-import com.mw.emoji.R;
 
 import android.content.Context;
 import android.text.Spannable;
 import android.util.SparseIntArray;
+
+import com.leaf.emoji.R;
 
 
 public final class EmojiHandler {

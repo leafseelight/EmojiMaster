@@ -1,4 +1,4 @@
-package com.mw.emoji.utils;
+package com.leaf.emoji.utils;
 
 
 import android.text.TextUtils;

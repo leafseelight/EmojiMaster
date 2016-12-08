@@ -19,7 +19,7 @@
         android:padding="10dp"
     >
 
-        <com.mw.emoji.view.EmojiEditText
+        <com.leaf.emoji.view.EmojiEditText
             android:id="@+id/et_emoji"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             android:textSize="14sp"/>
     </LinearLayout>
 
-    <com.mw.emoji.view.EmojiTextView
+    <com.leaf.emoji.view.EmojiTextView
         android:id="@+id/tv_emoji"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

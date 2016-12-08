@@ -1,14 +1,13 @@
 
-package com.mw.emoji.view;
+package com.leaf.emoji.view;
 
-
-
-import com.mw.emoji.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.widget.EditText;
+
+import com.leaf.emoji.R;
 
 public class EmojiEditText extends EditText {
     private int mEmojiconSize;

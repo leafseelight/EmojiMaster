@@ -1,5 +1,5 @@
 
-package com.mw.emoji.view;
+package com.leaf.emoji.view;
 
 import java.io.Serializable;
 

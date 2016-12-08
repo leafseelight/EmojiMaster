@@ -1,15 +1,14 @@
 
-package com.mw.emoji.view;
+package com.leaf.emoji.view;
 
-
-
-import com.mw.emoji.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.text.SpannableStringBuilder;
 import android.util.AttributeSet;
 import android.widget.TextView;
+
+import com.leaf.emoji.R;
 
 public class EmojiTextView extends TextView {
     private int mEmojiconSize;
